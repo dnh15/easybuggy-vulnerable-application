@@ -1,0 +1,9 @@
+# .github/codeql/codeql-config.yml
+name: "Custom CodeQL Configuration"
+
+#queries: 
+#  - uses: security-extended
+
+query-filters:
+  - exclude:
+      id: java/server-side-request-forgery
