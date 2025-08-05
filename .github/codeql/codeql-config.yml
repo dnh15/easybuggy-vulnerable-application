@@ -7,4 +7,5 @@ name: "Custom CodeQL Configuration"
 query-filters:
   - exclude:
       id: java/ssrf
+  - exclude:
       id: java/xss
