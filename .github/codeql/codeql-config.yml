@@ -6,4 +6,4 @@ name: "Custom CodeQL Configuration"
 
 query-filters:
   - exclude:
-      id: java/server-side-request-forgery
+      id: java/ssrf
